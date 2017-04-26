@@ -8,7 +8,7 @@ file_extensions:
   - css.liquid
 scope: source.css
 variables:
-  # Many variable names taken directly from https://www.w3.org/TR/css3-selectors/#lex
+  # Variable names taken directly from https://www.w3.org/TR/css3-selectors/#lex
   unicode: '\\\h{1,6}[ \t\n\f]?'
   escape: '(?:{{unicode}}|\\[^\n\f\h])'
   nonascii: '[\p{L}\p{M}\p{S}\p{N}&&[^[:ascii:]]]'
